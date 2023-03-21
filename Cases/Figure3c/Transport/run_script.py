@@ -34,8 +34,8 @@ def main():
         user_defined_condition = False
         reward = 0.0
 
-        LOAD_FROM_RESTART = False
-        SAVE_DATA_RESTART = True
+        LOAD_FROM_RESTART = True
+        SAVE_DATA_RESTART = False
         restart_file_location = "../Inject/tapered/data/"
         """
         Make sure inject code ran and last state of arm saved.

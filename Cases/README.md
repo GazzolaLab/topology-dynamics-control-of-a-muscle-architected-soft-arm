@@ -63,3 +63,12 @@ Examples can serve as a starting template for customized usages.
 * [SquidTentacle](./SquidTentacle)
     * __Purpose__: Run scripts for Squid Tentacle validation in the SI. 
     * __Run Time__: On a Macbook Pro 2021 M1 chip (8 core) 16Gb Ram, simulation takes 3 minutes. 
+* [SIFigure9](./SIFigure9)
+    * __Purpose__: Run scripts for supplementary Figure 9.
+    * __Run Time__: On a Macbook Pro 2021 M1 chip (8 core) 16Gb Ram, simulation takes 3 hours. 
+* [SIFigure10b](./SIFigure10b)
+    * __Purpose__: Run scripts for supplementary Figure 10b.
+    * __Run Time__: On a Macbook Pro 2021 M1 chip (8 core) 16Gb Ram, simulation takes 2 hour 30 minutes.
+* [SIFigure11a](./SIFigure11a)
+    * __Purpose__: Run scripts for supplementary Figure 11a.
+    * __Run Time__: On a Macbook Pro 2021 M1 chip (8 core) 16Gb Ram, simulation takes 1 hour 30 minutes.
