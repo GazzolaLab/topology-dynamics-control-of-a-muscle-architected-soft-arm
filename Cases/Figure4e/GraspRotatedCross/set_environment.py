@@ -2409,16 +2409,16 @@ class Environment:
                 self.helical_rod_list
                 # self.straight_rod_list[1:2]
             ):  # (self.straight_rod_list[1:]):
-                #                self.simulator.connect(rod, cylinder).using(
-                #                    ExternalContactForMemoryBlock, k=1e2, nu=1.0#0.3
-                #                )
                 self.simulator.connect(rod, cylinder).using(
-                    ExternalContactWithFrictionForMemoryBlock,
-                    k=1e2,
-                    nu=1.0,
-                    velocity_damping_coefficient=1e5,
-                    friction_coefficient=0.1,
+                    ExternalContactForMemoryBlock, k=1e2, nu=1.0  # 0.3
                 )
+                # self.simulator.connect(rod, cylinder).using(
+                #    ExternalContactWithFrictionForMemoryBlock,
+                #    k=1e2,
+                #    nu=1.0,
+                #    velocity_damping_coefficient=1e5,
+                #    friction_coefficient=0.1,
+                # )
 
         # Sucker forces and activations
         self.activation_array_block = np.zeros(
