@@ -2160,7 +2160,7 @@ class Environment:
         # rLm = 2.88  rArm=12 3*rLM/rarm
         factor = 1.387  # 5.0 # FIXME: We shouldnt need this scaling!
         #        cd_perpendicular = 1.013 * factor
-        cd_perpendicular = 1.1 * factor
+        cd_perpendicular = 1.013 * factor
         cd_tangent = 0.0256 * factor
         for idx, rod in enumerate(
             self.straight_rod_list[4:7]
