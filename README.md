@@ -1,9 +1,12 @@
-# Topology, dynamics and control of dynamics, and control of an octopus-analog muscular hydrostat
+<div align='center'>
+  <h1> Topology, dynamics and control of a muscle architected soft arm  </h1>
+  
+  [![DOI](https://zenodo.org/badge/616745369.svg)](https://zenodo.org/doi/10.5281/zenodo.13689163)
+  
+</div>
 
-This repository corresponds to the software and case files for running Topology, 
-dynamics and control of dynamics, and control of an octopus-analog muscular hydrostat paper. At the backend we 
-are using `pyelastica` software for simulations. This repository won't be updated and maintained, but we will keep
-developing modules and examples used here in this **REPO**.
+This repository corresponds to the software and case files for running our work published as *Topology, dynamics and control of a muscle architected soft arm* . At the backend we 
+are using [PyElastica](https://github.com/GazzolaLab/PyElastica) software for simulations. 
 
 ## Installation
 
